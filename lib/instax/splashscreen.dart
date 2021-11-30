@@ -1,12 +1,18 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'homepage.dart';
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({Key? key}) : super(key: key);
+
+  @override
   _SplashScreen createState() => _SplashScreen();
 }
 
 class _SplashScreen extends State<SplashScreen> {
+  @override
   void initState() {
     super.initState();
     splashscreenStart();
@@ -17,7 +23,7 @@ class _SplashScreen extends State<SplashScreen> {
     return Timer(duration, () {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => Homepage()),
+        MaterialPageRoute(builder: (context) => const Homepage()),
       );
     });
   }
