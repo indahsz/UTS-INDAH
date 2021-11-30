@@ -31,20 +31,27 @@ class _SplashScreen extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Icon(
-              Icons.school,
-              size: 100.0,
-              color: Colors.blue,
-            ),
-            SizedBox(
-              height: 24.0,
-            ),
-            Text(
-              "Made With ❤️ | © 2021",
-              style: TextStyle(
-                color: Colors.black,
-                fontWeight: FontWeight.bold,
-                fontSize: 10.0,
+            Expanded(
+                child: Align(
+              alignment: Alignment.bottomCenter,
+              child: Image.asset(
+                'assets/images/fujifilm.png',
+                height: 60,
+              ),
+            )),
+            Expanded(
+              child: Align(
+                alignment: FractionalOffset.bottomCenter,
+                child: Padding(
+                  padding: EdgeInsets.all(16),
+                  child: Text(
+                    "Made With ❤️ | © 2021",
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 10,
+                    ),
+                  ),
+                ),
               ),
             ),
           ],
