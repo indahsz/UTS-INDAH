@@ -97,7 +97,7 @@ class ItemDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 8.0),
             const Text(
-              'Be real and fun with the INSTAX MINI 7+ Cool design, colorful and compact, this instant camera is fun and esay to use. Point and shoot and girve your day some fun!',
+              'Be real and fun with the INSTAX MINI 7+ Cool design, colorful and compact, this instant camera is fun and easy to use. Point and shoot and girve your day some fun!',
               style: TextStyle(),
             ),
             const SizedBox(height: 8.0),
@@ -110,7 +110,7 @@ class ItemDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 8.0),
             const Text(
-              'The Mini 7+ is esay to use! Simply point and shoot! With its exposure control adjustment and 60mm fixed focus lens, the Mini 7+ makes it esay for you to be creative and live in the moment.',
+              'The Mini 7+ is easy to use! Simply point and shoot! With its exposure control adjustment and 60mm fixed focus lens, the Mini 7+ makes it easy for you to be creative and live in the moment.',
             ),
             const SizedBox(height: 8.0),
             const Text(
